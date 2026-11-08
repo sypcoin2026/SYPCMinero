@@ -1,0 +1,45 @@
+# Entornos, cachés y artefactos de Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+dist/
+build/
+*.egg-info/
+
+# Configuración de máquina y credenciales locales
+.env
+.env.*
+!.env.example
+config.json
+*.local.json
+*.secret
+*.key
+*.pem
+*.p12
+wallet*
+*.wallet
+*keystore*
+secrets/
+private/
+credentials/
+
+# Registros, telemetría y resultados locales
+*.log
+*.jsonl
+results/
+artifacts/
+evidence/
+captures/
+crash/
+core
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+*.swp
+*~
